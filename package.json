@@ -1,0 +1,20 @@
+{
+  "name": "hardhat_contract",
+  "version": "1.0.0",
+  "description": "Hardhat contract for voting dApp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arsh Ali",
+  "license": "ISC",
+  "devDependencies": {
+    "hardhat": "^2.22.12"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.3"
+  }
+}
