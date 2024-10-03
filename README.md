@@ -23,14 +23,22 @@ The Voting smart contract allows for a transparent and secure voting process. It
 1. Clone this repository:
 
    ```
-   git clone https://github.com/your-username/voting-smart-contract.git
-   cd voting-smart-contract
+   git clone https://github.com/arshali2774/Hardhat_Voting_Contract.git
+   cd Hardhat_Voting_Contract
    ```
 
 2. Install dependencies:
    ```
    npm install
    ```
+
+## Environment Setup
+
+Before deploying the contract, you need to set up your environment variables. Create a `.env` file in the root directory of the project and add the following:
+
+- `API_URL` : Your RPC URL or if using volta testnet (https://volta-rpc.energyweb.org)
+- `PRIVATE_KEY` : Your private key from metamask
+- `CONTRACT_ADDRESS` : The address of the deployed contract
 
 ## Usage
 
