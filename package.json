@@ -4,16 +4,17 @@
   "description": "Hardhat contract for voting dApp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "hardhat test",
+    "deploy": "hardhat ignition deploy ignition/modules/Voting.js"
   },
   "author": "Arsh Ali",
   "license": "ISC",
   "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "hardhat": "^2.22.12"
   },
   "dependencies": {
     "@nomicfoundation/hardhat-ethers": "^3.0.8",
-    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "dotenv": "^16.4.5",
     "ethers": "^6.13.3"
   }
